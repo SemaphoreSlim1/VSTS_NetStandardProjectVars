@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "netstandard-project-property-tools",
-    "name": "Project Property Reader and Writer",
+    "name": ".Net Standard Project Property Reader and Writer",
     "version": "0.0.1",
     "publisher": "MatthewThomas",
     "targets": [
