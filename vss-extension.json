@@ -1,0 +1,70 @@
+{
+    "manifestVersion": 1,
+    "id": "netstandard-project-property-tools",
+    "name": "Project Property Reader and Writer",
+    "version": "0.0.1",
+    "publisher": "MatthewThomas",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Build tasks for reading and writing project properties in .Net Standard projects",
+    "categories": [
+        "Build and release"
+    ],
+    "content":{
+        "details":{
+            "path":"overview.md"
+        }
+    },
+    "icons": {
+        "default": "icon.png"        
+    },
+    "files": [
+        {
+            "path": "ProjectVarReader"
+        },
+        {
+            "path": "ProjectVarWriter"
+        },
+        {
+            "path":"Images/ProjectVarReader/ProjectOverview.png",
+            "addressable":true
+        },
+        {
+            "path":"Images/ProjectVarWriter/ProjectOverview.png",
+            "addressable":true
+        }
+    ],
+    "contributions": [
+        {
+            "id": "project-var-reader",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "ProjectVarReader"
+            }
+        },
+        {
+            "id":"project-var-writer",
+            "type":"ms.vss-distributed-task.task",
+            "targets":[
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties":{
+                "name":"ProjectVarWriter"
+            }
+        }
+    ],
+    "screenshots":[
+        {
+            "path":"Images/ProjectVarReader/BuildStep.png"
+        },
+        {
+            "path":"Images/ProjectVarWriter/BuildStep.png"
+        }
+    ]
+}
