@@ -70,5 +70,6 @@
         {
             "path":"Images/ProjectVarWriter/BuildStep.png"
         }
-    ]
+    ],
+    "public": true
 }
