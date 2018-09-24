@@ -1,4 +1,6 @@
-Project property tools consists of two build steps
+Project property tools allows reading and writing of .Net Standard projects.
+
+It consists of two build steps:
 
 # Project Property To Environment Variable
 ![Build Step Preview Image](Images/ProjectVarReader/ProjectOverview.png)
