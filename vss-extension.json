@@ -18,6 +18,10 @@
             "path":"overview.md"
         }
     },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/matthewethomas/VSTS_NetStandardProjectVars"
+    },
     "icons": {
         "default": "icon.png"        
     },
